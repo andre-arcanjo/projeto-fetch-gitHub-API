@@ -5,5 +5,4 @@ async function getEvents(userName) {
     return await response.json();
 };
 
-export { getEvents }
-
+export { getEvents };

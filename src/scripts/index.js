@@ -6,7 +6,8 @@ import {getEvents} from './services/events.js';
 
 import { user } from "./objects/user.js"
 
-import { screen } from "./objects/screen.js"
+import { screen } from "./objects/screen.js";
+
 
 function validateEmptyInput(userName){
     if(userName === '' ){
